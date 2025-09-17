@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shopping for you — منتجاتنا لأجلك</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="root">
+    <header class="header">
+      <div class="brand">
+        <img src="logo.png" alt="logo" class="logo">
+        <div class="brand-text">
+          <h1 id="site-title">Shopping for you</h1>
+          <p id="tagline">Curated home products</p>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="lang-toggle" class="lang-btn" aria-label="Toggle language">العربية</button>
+        <button class="contact-btn" id="contact-btn">Contact</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="kicker" id="kicker">TODAY'S PICKS</div>
+          <h2 id="hero-title">Handpicked items to brighten your home</h2>
+          <p id="hero-sub">High-quality home goods with fast delivery and elegant design.</p>
+          <div class="cta-row">
+            <button id="shop-now" class="btn-primary">Shop Now</button>
+            <button class="btn-outline" id="offers-btn">Offers</button>
+          </div>
+        </div>
+        <aside class="hero-side">
+          <div class="feature"><div class="dot">1</div><div><strong id="f1-title">Free shipping</strong><div id="f1-sub">Orders over 2000 EGP</div></div></div>
+          <div class="feature"><div class="dot">2</div><div><strong id="f2-title">Easy Returns</strong><div id="f2-sub">14-day returns</div></div></div>
+          <div class="feature"><div class="dot">3</div><div><strong id="f3-title">24/7 Support</strong><div id="f3-sub">We're here to help</div></div></div>
+        </aside>
+      </section>
+
+      <section id="products" class="products-section">
+        <h2 id="products-title">Products</h2>
+        <!-- Empty products area: owner will add items later -->
+        <div id="products-grid" class="products-grid empty">
+          <div class="empty-box">
+            <p id="empty-text">No products yet — add your products to this section.</p>
+            <p class="small" id="empty-help">Use GitHub to edit <code>index.html</code> / <code>app.js</code> and add product items.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div><strong id="footer-title">Shopping for you</strong><div id="copyright">© sandbox</div></div>
+        <div id="footer-contact">Contact: 01555366643</div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
